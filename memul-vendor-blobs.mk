@@ -30,6 +30,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/memul/proprietary/vendor/lib/soundfx/libqcbassboost.so:/system/vendor/lib/soundfx/libqcbassboost.so \
         vendor/htc/memul/proprietary/vendor/lib/soundfx/libqcvirt.so:/system/vendor/lib/soundfx/libqcvirt.so \
         vendor/htc/memul/proprietary/vendor/lib/soundfx/libqcreverb.so:/system/vendor/lib/soundfx/libqcreverb.so \
+        vendor/htc/memul/proprietary/bin/rild:/system/bin/rild \
         vendor/htc/memul/proprietary/bin/hci_qcomm_init:/system/bin/hci_qcomm_init \
         vendor/htc/memul/proprietary/bin/adsprpcd:/system/bin/adsprpcd \
         vendor/htc/memul/proprietary/bin/mm-qcamera-daemon:/system/bin/mm-qcamera-daemon \
@@ -228,3 +229,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/memul/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
         vendor/htc/memul/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:/system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
         vendor/htc/memul/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:/system/vendor/lib/mediadrm/libwvdrmengine.so \
+
+PRODUCT_PACKAGES += \
+    libril

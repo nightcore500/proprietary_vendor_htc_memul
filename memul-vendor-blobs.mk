@@ -40,15 +40,15 @@ PRODUCT_COPY_FILES += \
         vendor/htc/memul/proprietary/etc/firmware/ILP0100_IPM_Code_out.bin:/system/etc/firmware/ILP0100_IPM_Code_out.bin \
         vendor/htc/memul/proprietary/etc/firmware/ILP0100_IPM_Data_out.bin:/system/etc/firmware/ILP0100_IPM_Data_out.bin \
         vendor/htc/memul/proprietary/etc/firmware/lscbuffer_rev2.bin:/system/etc/firmware/lscbuffer_rev2.bin \
-        vendor/htc/memul/proprietary/lib/hw/camera.vendor.msm8226.so:/system/lib/hw/camera.vendor.msm8226.so \
+        vendor/htc/memul/proprietary/lib/hw/camera.msm8226.so:/system/lib/hw/camera.msm8226.so \
         vendor/htc/memul/proprietary/vendor/lib/libadsprpc.so:/system/vendor/lib/libadsprpc.so \
-        vendor/htc/memul/proprietary/vendor/lib/libawb_calibration.so:/system/vendor/lib/libawb_calibration.so \
-        vendor/htc/memul/proprietary/vendor/lib/libBeautyChat.so:/system/vendor/lib/libBeautyChat.so \
-        vendor/htc/memul/proprietary/vendor/lib/libcamera_aec.so:/system/vendor/lib/libcamera_aec.so \
-        vendor/htc/memul/proprietary/vendor/lib/libcamera_af.so:/system/vendor/lib/libcamera_af.so \
-        vendor/htc/memul/proprietary/vendor/lib/libcamera_awb.so:/system/vendor/lib/libcamera_awb.so \
-        vendor/htc/memul/proprietary/vendor/lib/libcameraface.so:/system/vendor/lib/libcameraface.so \
-        vendor/htc/memul/proprietary/vendor/lib/libcamerapp.so:/system/vendor/lib/libcamerapp.so \
+        vendor/htc/memul/proprietary/lib/libawb_calibration.so:/system/lib/libawb_calibration.so \
+        vendor/htc/memul/proprietary/lib/libBeautyChat.so:/system/lib/libBeautyChat.so \
+        vendor/htc/memul/proprietary/lib/libcamera_aec.so:/system/lib/libcamera_aec.so \
+        vendor/htc/memul/proprietary/lib/libcamera_af.so:/system/lib/libcamera_af.so \
+        vendor/htc/memul/proprietary/lib/libcamera_awb.so:/system/lib/libcamera_awb.so \
+        vendor/htc/memul/proprietary/lib/libcameraface.so:/system/lib/libcameraface.so \
+        vendor/htc/memul/proprietary/lib/libcamerapp.so:/system/lib/libcamerapp.so \
         vendor/htc/memul/proprietary/vendor/lib/libchromatix_ov13850_common.so:/system/vendor/lib/libchromatix_ov13850_common.so \
         vendor/htc/memul/proprietary/vendor/lib/libchromatix_ov13850_default_video.so:/system/vendor/lib/libchromatix_ov13850_default_video.so \
         vendor/htc/memul/proprietary/vendor/lib/libchromatix_ov13850_hdr.so:/system/vendor/lib/libchromatix_ov13850_hdr.so \
@@ -64,7 +64,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/memul/proprietary/vendor/lib/libchromatix_s5k5e_onelane_video_16_9.so:/system/vendor/lib/libchromatix_s5k5e_onelane_video_16_9.so \
         vendor/htc/memul/proprietary/vendor/lib/libfastcvadsp_stub.so:/system/vendor/lib/libfastcvadsp_stub.so \
         vendor/htc/memul/proprietary/vendor/lib/libfastcvopt.so:/system/vendor/lib/libfastcvopt.so \
-        vendor/htc/memul/proprietary/vendor/lib/libhtccamera.so:/system/vendor/lib/libhtccamera.so \
+        vendor/htc/memul/proprietary/lib/libhtccamera.so:/system/lib/libhtccamera.so \
         vendor/htc/memul/proprietary/vendor/lib/libmmcamera2_c2d_module.so:/system/vendor/lib/libmmcamera2_c2d_module.so \
         vendor/htc/memul/proprietary/vendor/lib/libmmcamera2_cpp_module.so:/system/vendor/lib/libmmcamera2_cpp_module.so \
         vendor/htc/memul/proprietary/vendor/lib/libmmcamera2_iface_modules.so:/system/vendor/lib/libmmcamera2_iface_modules.so \
@@ -80,40 +80,37 @@ PRODUCT_COPY_FILES += \
         vendor/htc/memul/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:/system/vendor/lib/libmmcamera_hdr_gb_lib.so \
         vendor/htc/memul/proprietary/vendor/lib/libmmcamera_hdr_lib.so:/system/vendor/lib/libmmcamera_hdr_lib.so \
         vendor/htc/memul/proprietary/vendor/lib/libmmcamera_imglib.so:/system/vendor/lib/libmmcamera_imglib.so \
-        vendor/htc/memul/proprietary/vendor/lib/libmmcamera_interface.so:/system/vendor/lib/libmmcamera_interface.so \
+        vendor/htc/memul/proprietary/lib/libmmcamera_interface.so:/system/lib/libmmcamera_interface.so \
         vendor/htc/memul/proprietary/vendor/lib/libmmcamera_ov13850.so:/system/vendor/lib/libmmcamera_ov13850.so \
         vendor/htc/memul/proprietary/vendor/lib/libmmcamera_s5k5e_onelane.so:/system/vendor/lib/libmmcamera_s5k5e_onelane.so \
         vendor/htc/memul/proprietary/vendor/lib/libmmcamera_tintless_algo.so:/system/vendor/lib/libmmcamera_tintless_algo.so \
         vendor/htc/memul/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:/system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
-        vendor/htc/memul/proprietary/vendor/lib/libmmcamera_tuning.so:/system/vendor/lib/libmmcamera_tuning.so \
         vendor/htc/memul/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:/system/vendor/lib/libmmcamera_wavelet_lib.so \
         vendor/htc/memul/proprietary/vendor/lib/libmmipl.so:/system/vendor/lib/libmmipl.so \
         vendor/htc/memul/proprietary/vendor/lib/liboemcamera.so:/system/vendor/lib/liboemcamera.so \
-        vendor/htc/memul/proprietary/vendor/lib/libposteffect.so:/system/vendor/lib/libposteffect.so \
+        vendor/htc/memul/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
         vendor/htc/memul/proprietary/vendor/lib/libqomx_core.so:/system/vendor/lib/libqomx_core.so \
-        vendor/htc/memul/proprietary/vendor/lib/libtuning_aec_ov13850_hdr_16_9.so:/system/vendor/lib/libtuning_aec_ov13850_hdr_16_9.so \
-        vendor/htc/memul/proprietary/vendor/lib/libtuning_aec_ov13850_hdr.so:/system/vendor/lib/libtuning_aec_ov13850_hdr.so \
-        vendor/htc/memul/proprietary/vendor/lib/libtuning_aec_ov13850_night_16_9.so:/system/vendor/lib/libtuning_aec_ov13850_night_16_9.so \
-        vendor/htc/memul/proprietary/vendor/lib/libtuning_aec_ov13850_night.so:/system/vendor/lib/libtuning_aec_ov13850_night.so \
-        vendor/htc/memul/proprietary/vendor/lib/libtuning_aec_ov13850_video_60fps.so:/system/vendor/lib/libtuning_aec_ov13850_video_60fps.so \
-        vendor/htc/memul/proprietary/vendor/lib/libtuning_aec_ov13850_videoHFR.so:/system/vendor/lib/libtuning_aec_ov13850_videoHFR.so \
-        vendor/htc/memul/proprietary/vendor/lib/libtuning_aec_ov13850_video.so:/system/vendor/lib/libtuning_aec_ov13850_video.so \
-        vendor/htc/memul/proprietary/vendor/lib/libtuning_aec_ov13850_zoe.so:/system/vendor/lib/libtuning_aec_ov13850_zoe.so \
-        vendor/htc/memul/proprietary/vendor/lib/libtuning_aec_ov13850_zsl_16_9.so:/system/vendor/lib/libtuning_aec_ov13850_zsl_16_9.so \
-        vendor/htc/memul/proprietary/vendor/lib/libtuning_aec_ov13850_zsl.so:/system/vendor/lib/libtuning_aec_ov13850_zsl.so \
-        vendor/htc/memul/proprietary/vendor/lib/libtuning_aec_s5k5e_onelane_hdr_16_9.so:/system/vendor/lib/libtuning_aec_s5k5e_onelane_hdr_16_9.so \
-        vendor/htc/memul/proprietary/vendor/lib/libtuning_aec_s5k5e_onelane_hdr.so:/system/vendor/lib/libtuning_aec_s5k5e_onelane_hdr.so \
-        vendor/htc/memul/proprietary/vendor/lib/libtuning_aec_s5k5e_onelane_video_16_9.so:/system/vendor/lib/libtuning_aec_s5k5e_onelane_video_16_9.so \
-        vendor/htc/memul/proprietary/vendor/lib/libtuning_aec_s5k5e_onelane_video.so:/system/vendor/lib/libtuning_aec_s5k5e_onelane_video.so \
-        vendor/htc/memul/proprietary/vendor/lib/libtuning_aec_s5k5e_onelane_zsl_16_9.so:/system/vendor/lib/libtuning_aec_s5k5e_onelane_zsl_16_9.so \
-        vendor/htc/memul/proprietary/vendor/lib/libtuning_aec_s5k5e_onelane_zsl.so:/system/vendor/lib/libtuning_aec_s5k5e_onelane_zsl.so \
-        vendor/htc/memul/proprietary/vendor/lib/libtuning_aec.so:/system/vendor/lib/libtuning_aec.so \
-        vendor/htc/memul/proprietary/vendor/lib/libtuning_af_0.so:/system/vendor/lib/libtuning_af_0.so \
-        vendor/htc/memul/proprietary/vendor/lib/libtuning_af_1.so:/system/vendor/lib/libtuning_af_1.so \
-        vendor/htc/memul/proprietary/vendor/lib/libtuning_af_3.so:/system/vendor/lib/libtuning_af_3.so \
-        vendor/htc/memul/proprietary/vendor/lib/libtuning_af.so:/system/vendor/lib/libtuning_af.so \
-        vendor/htc/memul/proprietary/vendor/lib/libtuning_awb_ov13850.so:/system/vendor/lib/libtuning_awb_ov13850.so \
-        vendor/htc/memul/proprietary/vendor/lib/libtuning_awb_s5k5e_onelane.so:/system/vendor/lib/libtuning_awb_s5k5e_onelane.so \
+        vendor/htc/memul/proprietary/lib/libtuning_aec_ov13850_hdr_16_9.so:/system/lib/libtuning_aec_ov13850_hdr_16_9.so \
+        vendor/htc/memul/proprietary/lib/libtuning_aec_ov13850_hdr.so:/system/lib/libtuning_aec_ov13850_hdr.so \
+        vendor/htc/memul/proprietary/lib/libtuning_aec_ov13850_night_16_9.so:/system/lib/libtuning_aec_ov13850_night_16_9.so \
+        vendor/htc/memul/proprietary/lib/libtuning_aec_ov13850_night.so:/system/lib/libtuning_aec_ov13850_night.so \
+        vendor/htc/memul/proprietary/lib/libtuning_aec_ov13850_video_60fps.so:/system/lib/libtuning_aec_ov13850_video_60fps.so \
+        vendor/htc/memul/proprietary/lib/libtuning_aec_ov13850_videoHFR.so:/system/lib/libtuning_aec_ov13850_videoHFR.so \
+        vendor/htc/memul/proprietary/lib/libtuning_aec_ov13850_video.so:/system/lib/libtuning_aec_ov13850_video.so \
+        vendor/htc/memul/proprietary/lib/libtuning_aec_ov13850_zoe.so:/system/lib/libtuning_aec_ov13850_zoe.so \
+        vendor/htc/memul/proprietary/lib/libtuning_aec_ov13850_zsl_16_9.so:/system/lib/libtuning_aec_ov13850_zsl_16_9.so \
+        vendor/htc/memul/proprietary/lib/libtuning_aec_ov13850_zsl.so:/system/lib/libtuning_aec_ov13850_zsl.so \
+        vendor/htc/memul/proprietary/lib/libtuning_aec_s5k5e_onelane_hdr_16_9.so:/system/lib/libtuning_aec_s5k5e_onelane_hdr_16_9.so \
+        vendor/htc/memul/proprietary/lib/libtuning_aec_s5k5e_onelane_hdr.so:/system/lib/libtuning_aec_s5k5e_onelane_hdr.so \
+        vendor/htc/memul/proprietary/lib/libtuning_aec_s5k5e_onelane_video_16_9.so:/system/lib/libtuning_aec_s5k5e_onelane_video_16_9.so \
+        vendor/htc/memul/proprietary/lib/libtuning_aec_s5k5e_onelane_video.so:/system/lib/libtuning_aec_s5k5e_onelane_video.so \
+        vendor/htc/memul/proprietary/lib/libtuning_aec_s5k5e_onelane_zsl_16_9.so:/system/lib/libtuning_aec_s5k5e_onelane_zsl_16_9.so \
+        vendor/htc/memul/proprietary/lib/libtuning_aec_s5k5e_onelane_zsl.so:/system/lib/libtuning_aec_s5k5e_onelane_zsl.so \
+        vendor/htc/memul/proprietary/lib/libtuning_aec.so:/system/lib/libtuning_aec.so \
+        vendor/htc/memul/proprietary/lib/libtuning_af_ti201_ov13850.so:/system/lib/libtuning_af_ti201_ov13850.so \
+        vendor/htc/memul/proprietary/lib/libtuning_af_ti201_ov13850_otp.so:/system/lib/libtuning_af_ti201_ov13850_otp.so \
+        vendor/htc/memul/proprietary/lib/libtuning_awb_ov13850.so:/system/lib/libtuning_awb_ov13850.so \
+        vendor/htc/memul/proprietary/lib/libtuning_awb_s5k5e_onelane.so:/system/lib/libtuning_awb_s5k5e_onelane.so \
         vendor/htc/memul/proprietary/vendor/lib/rfsa/adsp/libadsp_denoise_skel.so:/system/vendor/lib/rfsa/adsp/libadsp_denoise_skel.so \
         vendor/htc/memul/proprietary/vendor/lib/rfsa/adsp/libdspCV_skel.so:/system/vendor/lib/rfsa/adsp/libdspCV_skel.so \
         vendor/htc/memul/proprietary/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so:/system/vendor/lib/rfsa/adsp/libfastcvadsp_skel.so \
@@ -167,7 +164,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/memul/proprietary/vendor/lib/libjpegdhw.so:/system/vendor/lib/libjpegdhw.so \
         vendor/htc/memul/proprietary/vendor/lib/libjpegehw.so:/system/vendor/lib/libjpegehw.so \
         vendor/htc/memul/proprietary/vendor/lib/libmm-color-convertor.so:/system/vendor/lib/libmm-color-convertor.so \
-        vendor/htc/memul/proprietary/vendor/lib/libmmjpeg_interface.so:/system/vendor/lib/libmmjpeg_interface.so \
+        vendor/htc/memul/proprietary/lib/libmmjpeg_interface.so:/system/lib/libmmjpeg_interface.so \
         vendor/htc/memul/proprietary/vendor/lib/libmmjpeg.so:/system/vendor/lib/libmmjpeg.so \
         vendor/htc/memul/proprietary/vendor/lib/libmmqjpeg_codec.so:/system/vendor/lib/libmmqjpeg_codec.so \
         vendor/htc/memul/proprietary/vendor/lib/libqomx_jpegdec.so:/system/vendor/lib/libqomx_jpegdec.so \

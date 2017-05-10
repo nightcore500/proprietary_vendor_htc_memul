@@ -22,6 +22,10 @@ PRODUCT_COPY_FILES += \
         vendor/htc/memul/proprietary/etc/Hdmi_cal.acdb:/system/etc/Hdmi_cal.acdb \
         vendor/htc/memul/proprietary/etc/Headset_cal.acdb:/system/etc/Headset_cal.acdb \
         vendor/htc/memul/proprietary/etc/Speaker_cal.acdb:/system/etc/Speaker_cal.acdb \
+        vendor/htc/memul/proprietary/etc/flp.conf:/system/etc/flp.conf \
+        vendor/htc/memul/proprietary/etc/gps.conf:/system/etc/gps.conf \
+        vendor/htc/memul/proprietary/etc/izat.conf:/system/etc/izat.conf \
+        vendor/htc/memul/proprietary/etc/sap.conf:/system/etc/sap.conf \
         vendor/htc/memul/proprietary/vendor/lib/libacdbloader.so:/system/vendor/lib/libacdbloader.so \
         vendor/htc/memul/proprietary/vendor/lib/libacdbmapper.so:/system/vendor/lib/libacdbmapper.so \
         vendor/htc/memul/proprietary/vendor/lib/libacdbrtac.so:/system/vendor/lib/libacdbrtac.so \
@@ -118,13 +122,14 @@ PRODUCT_COPY_FILES += \
         vendor/htc/memul/proprietary/etc/agps_rm:/system/etc/agps_rm \
         vendor/htc/memul/proprietary/lib/hw/gps.default.so:/system/lib/hw/gps.default.so \
         vendor/htc/memul/proprietary/vendor/lib/libgeofence.so:/system/vendor/lib/libgeofence.so \
-        vendor/htc/memul/proprietary/vendor/lib/libgps.utils.so:/system/vendor/lib/libgps.utils.so \
+        vendor/htc/memul/proprietary/lib/libgps.utils.so:/system/lib/libgps.utils.so \
         vendor/htc/memul/proprietary/vendor/lib/libizat_core.so:/system/vendor/lib/libizat_core.so \
         vendor/htc/memul/proprietary/vendor/lib/liblbs_core.so:/system/vendor/lib/liblbs_core.so \
-        vendor/htc/memul/proprietary/vendor/lib/libloc_api_v02.so:/system/vendor/lib/libloc_api_v02.so \
-        vendor/htc/memul/proprietary/vendor/lib/libloc_core.so:/system/vendor/lib/libloc_core.so \
-        vendor/htc/memul/proprietary/vendor/lib/libloc_ds_api.so:/system/vendor/lib/libloc_ds_api.so \
-        vendor/htc/memul/proprietary/vendor/lib/libloc_eng.so:/system/vendor/lib/libloc_eng.so \
+        vendor/htc/memul/proprietary/lib/libloc_api_v02.so:/system/lib/libloc_api_v02.so \
+        vendor/htc/memul/proprietary/lib/libloc_core.so:/system/lib/libloc_core.so \
+        vendor/htc/memul/proprietary/lib/libloc_ds_api.so:/system/lib/libloc_ds_api.so \
+        vendor/htc/memul/proprietary/lib/libloc_eng.so:/system/lib/libloc_eng.so \
+        vendor/htc/memul/proprietary/lib/libmdmdetect.so:/system/lib/libmdmdetect.so \
         vendor/htc/memul/proprietary/etc/firmware/a225p5_pm4.fw:/system/etc/firmware/a225p5_pm4.fw \
         vendor/htc/memul/proprietary/etc/firmware/a225_pfp.fw:/system/etc/firmware/a225_pfp.fw \
         vendor/htc/memul/proprietary/etc/firmware/a225_pm4.fw:/system/etc/firmware/a225_pm4.fw \
@@ -177,15 +182,20 @@ PRODUCT_COPY_FILES += \
         vendor/htc/memul/proprietary/vendor/lib/libthermalioctl.so:/system/vendor/lib/libthermalioctl.so \
         vendor/htc/memul/proprietary/bin/qmuxd:/system/bin/qmuxd \
         vendor/htc/memul/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
+        vendor/htc/memul/proprietary/vendor/lib/hw/flp.default.so:/system/vendor/lib/hw/flp.default.so \
+        vendor/htc/memul/proprietary/vendor/lib/libcneapiclient.so:/system/vendor/lib/libcneapiclient.so \
+        vendor/htc/memul/proprietary/vendor/lib/libconfigdb.so:/system/vendor/lib/libconfigdb.so \
         vendor/htc/memul/proprietary/vendor/lib/libdiag.so:/system/vendor/lib/libdiag.so \
         vendor/htc/memul/proprietary/vendor/lib/libdsi_netctrl.so:/system/vendor/lib/libdsi_netctrl.so \
         vendor/htc/memul/proprietary/vendor/lib/libdsnetutils.so:/system/vendor/lib/libdsnetutils.so \
         vendor/htc/memul/proprietary/vendor/lib/libdsutils.so:/system/vendor/lib/libdsutils.so \
+        vendor/htc/memul/proprietary/vendor/lib/libflp.so:/system/vendor/lib/libflp.so \
         vendor/htc/memul/proprietary/vendor/lib/libidl.so:/system/vendor/lib/libidl.so \
         vendor/htc/memul/proprietary/vendor/lib/libqcci_legacy.so:/system/vendor/lib/libqcci_legacy.so \
         vendor/htc/memul/proprietary/vendor/lib/libqdi.so:/system/vendor/lib/libqdi.so \
         vendor/htc/memul/proprietary/vendor/lib/libqdp.so:/system/vendor/lib/libqdp.so \
         vendor/htc/memul/proprietary/vendor/lib/libqmi_cci.so:/system/vendor/lib/libqmi_cci.so \
+        vendor/htc/memul/proprietary/vendor/lib/libqmi_client_helper.so:/system/vendor/lib/libqmi_client_helper.so \
         vendor/htc/memul/proprietary/vendor/lib/libqmi_client_qmux.so:/system/vendor/lib/libqmi_client_qmux.so \
         vendor/htc/memul/proprietary/vendor/lib/libqmi_common_so.so:/system/vendor/lib/libqmi_common_so.so \
         vendor/htc/memul/proprietary/vendor/lib/libqmi_csi.so:/system/vendor/lib/libqmi_csi.so \
@@ -194,9 +204,13 @@ PRODUCT_COPY_FILES += \
         vendor/htc/memul/proprietary/vendor/lib/libqmi.so:/system/vendor/lib/libqmi.so \
         vendor/htc/memul/proprietary/bin/netmgrd:/system/bin/netmgrd \
         vendor/htc/memul/proprietary/vendor/lib/libnetmgr.so:/system/vendor/lib/libnetmgr.so \
+        vendor/htc/memul/proprietary/vendor/lib/libperipheral_client.so:/system/vendor/lib/libperipheral_client.so \
         vendor/htc/memul/proprietary/vendor/lib/libqc-opt.so:/system/vendor/lib/libqc-opt.so \
         vendor/htc/memul/proprietary/vendor/lib/libril-qc-qmi-1.so:/system/vendor/lib/libril-qc-qmi-1.so \
         vendor/htc/memul/proprietary/vendor/lib/libril-qcril-hook-oem.so:/system/vendor/lib/libril-qcril-hook-oem.so \
+        vendor/htc/memul/proprietary/vendor/lib/libsmemlog.so:/system/vendor/lib/libsmemlog.so \
+        vendor/htc/memul/proprietary/vendor/lib/libsystem_health_mon.so:/system/vendor/lib/libsystem_health_mon.so \
+        vendor/htc/memul/proprietary/vendor/lib/libxml.so:/system/vendor/lib/libxml.so \
         vendor/htc/memul/proprietary/bin/akmd:/system/bin/akmd \
         vendor/htc/memul/proprietary/lib/hw/sensors.msm8226.so:/system/lib/hw/sensors.msm8226.so \
         vendor/htc/memul/proprietary/vendor/lib/libyasalgo.so:/system/vendor/lib/libyasalgo.so \

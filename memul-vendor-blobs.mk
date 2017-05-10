@@ -205,6 +205,7 @@ PRODUCT_COPY_FILES += \
         vendor/htc/memul/proprietary/vendor/lib/libnetmgr.so:/system/vendor/lib/libnetmgr.so \
         vendor/htc/memul/proprietary/vendor/lib/libperipheral_client.so:/system/vendor/lib/libperipheral_client.so \
         vendor/htc/memul/proprietary/vendor/lib/libqc-opt.so:/system/vendor/lib/libqc-opt.so \
+        vendor/htc/memul/proprietary/vendor/lib/libqti-perfd-client.so:/system/vendor/lib/libqti-perfd-client.so \
         vendor/htc/memul/proprietary/vendor/lib/libril-qc-qmi-1.so:/system/vendor/lib/libril-qc-qmi-1.so \
         vendor/htc/memul/proprietary/vendor/lib/libril-qcril-hook-oem.so:/system/vendor/lib/libril-qcril-hook-oem.so \
         vendor/htc/memul/proprietary/vendor/lib/libsmemlog.so:/system/vendor/lib/libsmemlog.so \

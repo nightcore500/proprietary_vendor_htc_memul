@@ -82,6 +82,8 @@ PRODUCT_COPY_FILES += \
         vendor/htc/memul/proprietary/vendor/lib/libacdbrtac.so:/system/vendor/lib/libacdbrtac.so \
         vendor/htc/memul/proprietary/vendor/lib/libadiertac.so:/system/vendor/lib/libadiertac.so \
         vendor/htc/memul/proprietary/vendor/lib/libaudcal.so:/system/vendor/lib/libaudcal.so \
+        vendor/htc/memul/proprietary/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so:/system/vendor/lib/libaptX-1.0.0-rel-Android21-ARMv7A.so \
+        vendor/htc/memul/proprietary/vendor/lib/libaptXScheduler.so:/system/vendor/lib/libaptXScheduler.so \
         vendor/htc/memul/proprietary/vendor/lib/soundfx/libqcbassboost.so:/system/vendor/lib/soundfx/libqcbassboost.so \
         vendor/htc/memul/proprietary/vendor/lib/soundfx/libqcvirt.so:/system/vendor/lib/soundfx/libqcvirt.so \
         vendor/htc/memul/proprietary/vendor/lib/soundfx/libqcreverb.so:/system/vendor/lib/soundfx/libqcreverb.so \

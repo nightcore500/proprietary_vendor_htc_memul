@@ -202,7 +202,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/memul/proprietary/etc/firmware/venus.mbn:/system/etc/firmware/venus.mbn \
         vendor/htc/memul/proprietary/etc/firmware/venus.mdt:/system/etc/firmware/venus.mdt \
         vendor/htc/memul/proprietary/vendor/lib/libExtendedExtractor.so:/system/vendor/lib/libExtendedExtractor.so \
-        vendor/htc/memul/proprietary/vendor/lib/libI420colorconvert.so:/system/vendor/lib/libI420colorconvert.so \
         vendor/htc/memul/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
         vendor/htc/memul/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
         vendor/htc/memul/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
@@ -210,7 +209,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/memul/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
         vendor/htc/memul/proprietary/vendor/lib/libjpegdhw.so:/system/vendor/lib/libjpegdhw.so \
         vendor/htc/memul/proprietary/vendor/lib/libjpegehw.so:/system/vendor/lib/libjpegehw.so \
-        vendor/htc/memul/proprietary/vendor/lib/libmm-color-convertor.so:/system/vendor/lib/libmm-color-convertor.so \
         vendor/htc/memul/proprietary/lib/libmmjpeg_interface.so:/system/lib/libmmjpeg_interface.so \
         vendor/htc/memul/proprietary/vendor/lib/libmmjpeg.so:/system/vendor/lib/libmmjpeg.so \
         vendor/htc/memul/proprietary/vendor/lib/libmmqjpeg_codec.so:/system/vendor/lib/libmmqjpeg_codec.so \

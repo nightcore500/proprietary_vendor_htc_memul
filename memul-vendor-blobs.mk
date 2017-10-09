@@ -176,8 +176,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/memul/proprietary/etc/firmware/a300_pm4.fw:/system/etc/firmware/a300_pm4.fw \
         vendor/htc/memul/proprietary/etc/firmware/a330_pfp.fw:/system/etc/firmware/a330_pfp.fw \
         vendor/htc/memul/proprietary/etc/firmware/a330_pm4.fw:/system/etc/firmware/a330_pm4.fw \
-        vendor/htc/memul/proprietary/etc/firmware/leia_pfp_470.fw:/system/etc/firmware/leia_pfp_470.fw \
-        vendor/htc/memul/proprietary/etc/firmware/leia_pm4_470.fw:/system/etc/firmware/leia_pm4_470.fw \
         vendor/htc/memul/proprietary/vendor/lib/egl/eglsubAndroid.so:/system/vendor/lib/egl/eglsubAndroid.so \
         vendor/htc/memul/proprietary/vendor/lib/egl/libEGL_adreno.so:/system/vendor/lib/egl/libEGL_adreno.so \
         vendor/htc/memul/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:/system/vendor/lib/egl/libGLESv1_CM_adreno.so \

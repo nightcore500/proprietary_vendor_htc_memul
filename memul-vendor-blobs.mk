@@ -273,7 +273,6 @@ PRODUCT_COPY_FILES += \
         vendor/htc/memul/proprietary/vendor/lib/libuiblur.so:system/vendor/lib/libuiblur.so \
         vendor/htc/memul/proprietary/vendor/lib/libwvdrm_L1.so:/system/vendor/lib/libwvdrm_L1.so \
         vendor/htc/memul/proprietary/vendor/lib/libwvm.so:/system/vendor/lib/libwvm.so \
-        vendor/htc/memul/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:/system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
         vendor/htc/memul/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:/system/vendor/lib/mediadrm/libwvdrmengine.so \
         vendor/htc/memul/proprietary/vendor/lib/libxml.so:/system/vendor/lib/libxml.so \
         vendor/htc/memul/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
